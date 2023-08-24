@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .capacity-status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  input[type="number"],
+  input[type="text"],
+  input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .customer-table th,
+  .customer-table td {
+    padding: 12px 20px;
+    text-align: left;
+  }
+
+  .customer-table th {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .customer-table td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .served {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: not-allowed;
+  }
+
+  .dining {
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .dining:hover {
+    background-color: #27ae60;
+  }
+
+  .dining:active {
+    background-color: #1d8348;
+  }
+
+  .remove-entry {
+    color: #e74c3c;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .remove-entry:hover {
+    color: #c0392b;
+  }
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  button {
+    width: 120px;
+    padding-block: 5px;
+    cursor: pointer;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  input {
+    padding: 5px;
+    font-size: 1.1rem;
+  }
+
+  .served {
+    background-color: red;
+  }
+
+  .dining {
+    background-color: lime;
+    cursor: pointer;
+  }
